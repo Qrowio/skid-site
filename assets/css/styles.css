@@ -1,0 +1,100 @@
+/* CODED BY QROW#3914 - HTTPS://QROW.ME
+CODED BY QROW#3914 - HTTPS://QROW.ME
+CODED BY QROW#3914 - HTTPS://QROW.ME */
+
+body {
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+body {
+    background: url("https://i.pinimg.com/564x/3c/d8/89/3cd889944ee2c34a203839b3f1edc632.jpg");
+}
+}
+
+.video-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+  
+@media screen and (max-width: 600px) {
+video {
+    width: 100%;
+    height: 100%;
+    visibility: hidden;
+}
+}
+
+video {
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width: 600px) {
+.color-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #16161f;
+    width: 100%;
+    height: 100%;
+    opacity: 65%;
+    visibility: hidden;
+}
+}
+
+.color-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #16161f;
+    width: 100%;
+    height: 100%;
+    opacity: 65%;
+}
+
+.text {
+    color: #fff;
+    opacity: 100%;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    font-family: Montserrat Light;
+    text-transform: uppercase;
+    font-size: 2rem;
+    letter-spacing: 0.5rem;
+    vertical-align: middle;
+    top: 30%;
+    text-shadow: 3px 3px black;
+}
+
+@font-face {
+    font-family: "Montserrat Light";
+    src: url(../../assets/fonts/Montserrat-SemiBold.woff) format("woff");
+    font-weight: 400;
+    font-style: normal;
+}
+
+.links {
+    font-size: 2.5rem;
+    margin-top: -1rem;
+}
+
+a {
+    text-transform: none;
+    color: inherit;
+}
+
+a:hover {
+    color: #ffb6c1;
+    transition: 0.3s;
+    transition-timing-function: linear;
+}
+
+/* CODED BY QROW#3914 - HTTPS://QROW.ME
+CODED BY QROW#3914 - HTTPS://QROW.ME
+CODED BY QROW#3914 - HTTPS://QROW.ME */
